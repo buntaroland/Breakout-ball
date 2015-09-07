@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BreakOut Ball 1.2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ParseAppID">djzlI1VtqeSRhZ0JveyRpu4N4UytVzkRi8qMqwLj</string>
+    <string name="ParseClientID">yfKRTjIStiWZBJ9Xb3sEDEWcx6QdRj4nJx39GxDF</string>
+    <string name="map1">Simple Map</string>
+    <string name="map2">Barred Map</string>
+    <string name="map3">Stripped Map</string>
+    <string name="map4">Random Map</string>
+    <string name="map5">Reversed Map</string>
+    <string name="myButton">Done</string>
+
+</resources>

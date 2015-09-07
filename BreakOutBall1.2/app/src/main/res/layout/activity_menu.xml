@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <Button android:id="@+id/newGameButton"
+        android:text="New Game"
+        android:layout_width="400px"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button android:text="High Scores"
+        android:id="@+id/highScoresButton"
+        android:layout_width="400px"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button android:text="Settings"
+        android:id="@+id/settingsButton"
+        android:layout_width="400px"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button android:text="Exit"
+        android:id="@+id/exitButton"
+        android:layout_width="400px"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <TextView
+        android:id="@+id/setting_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

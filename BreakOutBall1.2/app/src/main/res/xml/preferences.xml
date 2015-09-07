@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Personal">
+        <EditTextPreference
+            android:key="PREF_NAME"
+            android:title="Name"
+            android:summary="Change your name"
+            android:defaultValue="player"
+            android:dialogTitle="Name for BreakOutBall"
+            android:dialogIcon="@drawable/icon1"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Game Settings">
+        <ListPreference
+            android:key="PREF_LIST"
+            android:title="Map Selection"
+            android:summary="Set the game map"
+            android:entries="@array/mapSelection"
+            android:entryValues="@array/mapSelectionValues"
+            android:dialogIcon="@drawable/icon3"/>
+    </PreferenceCategory>
+</PreferenceScreen>
